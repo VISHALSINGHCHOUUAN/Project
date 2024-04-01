@@ -1,0 +1,281 @@
+/* -------------------navbar--------------------------------- */
+.input-group-text{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.input-group{
+    /* width: 42vh; */
+    width: 84%;
+    height: 48px;
+}
+.horiz{
+    /* background-color: white;
+    height: 50px;
+    margin-top: 64px; */
+    background-color: white;
+    height: 3px;
+    position: relative;
+    margin-top: 64px;
+    top: 51px;
+}
+
+#brand{
+    position: relative;
+    left: -49px;
+}
+#brand a{
+    position: relative;
+    right: 48px;
+}
+
+#nav2{
+    /* position: relative; */
+    /* top: -12px; */
+    /* left: 300px; */
+    font-size: 1.1em;
+    /* word-spacing: 10px; */
+}
+#demo a{
+    /* padding: 5px; */
+    /* padding-right: 95px; */
+    padding-left: 95px;
+    
+}
+#newnav{
+    position: relative;
+    top: 35px;
+    box-shadow: 0px 1px 20px  white;
+    /* width: 100%; */
+
+}
+
+
+/* ----------------------------container------------------------------------- */
+#icons{
+    margin-bottom: 40px;
+    /* border: 2px solid white; */
+    /* height: 200px; */
+    height: auto;
+    border-radius: 35px;
+    position: relative;
+    top: 50px;
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    box-shadow: 0px 0px 15px -3px black;
+
+
+}
+
+
+.card i {
+    color: white;
+    font-size: 49px; 
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(49px, 1fr)); */
+}
+
+
+
+#brand img{
+    /* color: white; */
+    aspect-ratio: 3/2;
+    height: 100px;
+    width: 150px;
+}
+
+.card{
+    /* width:10vw; */
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+#all-card-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, 2fr));
+    /* margin-left:5px ; */
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#card1{
+    background:linear-gradient(-45deg, #ff4c51, #ff825f);
+}
+#card2{
+    background:linear-gradient(-45deg, #ff8e4c, #ffd75f);
+}
+
+#card3{
+    background:linear-gradient(-45deg, #ff711f, #f2c746);
+    
+}
+#card4{
+    background:linear-gradient(-45deg, #a21fff, #46e9f2);
+    
+}
+#card5{
+    background:linear-gradient(-45deg, #1fff75, #46f2e4);
+
+}
+#card6{
+    background:linear-gradient(-45deg, #ec1fff, #9946f2);
+    
+}
+
+/* #card2 i{
+    position: relative;
+    left: 16px;
+}
+#card3 i{
+    position: relative;
+    left: 16px;
+}
+#card4 i{
+    position: relative;
+    left: 16px;
+}
+#card5 i{
+    position: relative;
+    left: 16px;
+}
+#card6 i{
+    position: relative;
+    left: 16px;
+}
+
+#card3 a{
+    position: relative;
+    right: 12px;
+} */
+
+.product-details{
+    height: auto;
+    width: auto;
+}
+
+#heading{
+    color: white;
+    margin: 28px;
+}
+#product{
+    margin-bottom: 40px;
+    /* border: 2px solid white; */
+    /* height: 200px; */
+    height: auto;
+    border-radius: 35px;
+    position: relative;
+    top: 50px;
+    width: 96%;
+    box-shadow: 0px 0px 15px -3px black;
+
+    
+    /* background: #242020; */
+}
+
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    font-size: 1.4em;
+}
+.horiz2{
+    background-color: white;
+    height: 3px;
+    position: relative;
+    /* margin-top: 64px; */
+    bottom: 55px;
+}
+
+
+
+/* ----------------------tab-content------------------------ */
+.tab-titles{
+    display: flex;
+    margin: 0 0 40px;
+}
+.tab-links{
+    margin-right: 66px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+} 
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 9px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width: 60%;
+
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+   margin-left: 70px;
+}
+.card-size{
+    width: 80%;
+}
+
+.row2{
+    margin-bottom: 17px;
+}
+
+#tab-cards{
+    background-color: #212529;
+    box-shadow: 0px 0px 15px -3px black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.my-btn{
+    border:2px solid #ff004f;
+}
+.my-btn:hover{
+    background-color: #ff004f;
+    border:2px solid #ff004f;
+
+}
+
+/* -------------------------------------top mobiles--------------------------------------------------- */
+.top-mobiles{
+    top: 56px;
+    position: relative;
+    box-shadow: 0px 0px 15px -3px black;
+    border-radius: 35px;
+    width: 96%;
+}
+
+#mobile-icons{
+    
+        margin-bottom: 40px;
+        /* border: 2px solid white; */
+        /* height: 200px; */
+        height: auto;
+        border-radius: 35px;
+        position: relative;
+        /* top: 50px; */
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+        /* box-shadow: 0px 0px 15px 3px black; */
+    
+    
+    
+}

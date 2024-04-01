@@ -1,0 +1,117 @@
+@media screen and (max-width:370px) {
+
+    #search {
+        display: none;
+    }
+
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    }
+
+    .newnav {
+        top: 30px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 120px;
+    }
+
+    #brand img {
+        position: relative;
+        left: 26px;
+    }
+
+    #brand a {
+        left: -82px;
+    }
+
+    .card {
+        /* width: 87%; */
+        display: flex;
+        align-items: center;
+    }
+
+    #card3 {
+        position: relative;
+        /* left: 16px; */
+    }
+
+    #card6 {
+        position: relative;
+        /* right: 5px; */
+    }
+
+    #card3 i {
+        right: 15px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 52%;
+    }
+
+    #search {
+        display: none;
+    }
+    .newnav {
+        top: 30px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 142px;
+    }
+
+    #brand a {
+        left: -52px;
+    }
+    #brand img{
+        position: relative;
+        left:111px;
+    }
+   
+}
+
+@media screen and (max-width:450px) {
+   header{
+    height: 68vh;
+   }
+    #search{
+        width: 94%;
+        position: relative;
+        bottom: 22px;
+        right: 55px;
+    }
+    #search-box{
+        position: relative;
+        left: 141px;
+        top: 8px;
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 174px;
+    }
+    #newnav{
+        top: 85px;
+    }
+    #brand a {
+        left: 75px;
+    }
+    #brand img{
+        position: relative;
+        left:137px;
+    }
+}
