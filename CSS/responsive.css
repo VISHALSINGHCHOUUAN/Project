@@ -68,7 +68,72 @@
    
 }
 
+@media screen and (max-width:390px){
+    /* #search {
+        display: none;
+    } */
 
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        margin-left: 3px;
+    }
+
+    #newnav {
+        top: 86px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 158px;
+    }
+
+    #brand img {
+        position: relative;
+        left: 188px;
+    }
+
+    #brand a {
+        right: 106px;
+    }
+
+    .card {
+        /* width: 87%; */
+        display: flex;
+        align-items: center;
+    }
+
+    #card3 {
+        position: relative;
+        /* left: 16px; */
+    }
+
+    #card6 {
+        position: relative;
+        /* right: 5px; */
+    }
+
+    #card3 i {
+        right: 15px;
+    }
+
+    .tab-links::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0px;
+        top:35px;
+        transition: 0.5s;
+    }
+    .tab-links.active-link::after{
+        width: 20%;
+    }
+
+    #icons{
+        top: -99px;
+    }
+}
 
 @media screen and (max-width:370px) {
 
