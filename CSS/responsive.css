@@ -229,7 +229,7 @@
     }
 }
 
-@media screen and (max-width:354px) {
+@media screen and (max-width:365px) {
 
     #search {
         display: none;
@@ -291,14 +291,17 @@
     .tab-links.active-link::after{
         width: 20%;
     }
-
-    .tab-contents.active-tab {
+    
+    .active-tab {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
         /* margin-right: 70px; */
         position: relative;
-        right: 89px;
+        right: 34px;
 
+    }
+    .card-size{
+        width: 78%;
     }
 
     #icons{
@@ -312,6 +315,6 @@
         font-size: 0.9em;
     }
     .card-image{
-        height: 22vh;
+        height: 13vh;
     }
 }
