@@ -31,42 +31,6 @@
      }
  }
 
-@media screen and (max-width:380px) {
-    #all-card-item {
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    }
-
-    .col {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card {
-        width: 52%;
-    }
-
-    #search {
-        display: none;
-    }
-    #newnav {
-        top: 30px;
-    }
-
-    .navbar-toggler {
-        position: relative;
-        right: 142px;
-    }
-
-    #brand a {
-        right: 62px;
-    }
-    #brand img{
-        position: relative;
-        left:126px;
-    }
-   
-}
 
 @media screen and (max-width:390px){
     /* #search {
@@ -130,10 +94,71 @@
         width: 20%;
     }
 
+     .active-tab {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        /* margin-right: 70px; */
+        position: relative;
+        right: 13px;
+
+    }
+    .card-size{
+        width: 78%;
+    }
+
     #icons{
-        top: -99px;
+        top: -263px;
+    }
+    #product{
+        top: -236px;
+    }
+    .top-mobiles{top: -186px;}
+    .title{
+        font-size: 0.9em;
+    }
+    .card-image{
+        height: 13vh;
     }
 }
+
+@media screen and (max-width:380px) {
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 52%;
+    }
+
+    #search {
+        display: none;
+    }
+    #newnav {
+        top: 30px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 142px;
+    }
+
+    #brand a {
+        right: 62px;
+    }
+    #brand img{
+        position: relative;
+        left:126px;
+    }
+   
+}
+
+
 
 @media screen and (max-width:370px) {
 
