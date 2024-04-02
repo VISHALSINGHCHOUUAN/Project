@@ -157,11 +157,11 @@
 
     #brand img {
         position: relative;
-        left: 26px;
+        left: 103px;
     }
 
     #brand a {
-        left: -82px;
+        left: -55px;
     }
 
     .card {
@@ -207,8 +207,11 @@
         grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
         /* margin-right: 70px; */
         position: relative;
-        right: 89px;
+        right: 34px;
+    }
 
+    .card-size{
+        width:78%;
     }
 
     #icons{
@@ -222,7 +225,7 @@
         font-size: 0.9em;
     }
     .card-image{
-        height: 22vh;
+        height: 13vh;
     }
 }
 
