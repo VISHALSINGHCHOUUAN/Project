@@ -201,6 +201,29 @@
     #icons{
         top: -162px;
     }
+
+    .tab-contents.active-tab {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        /* margin-right: 70px; */
+        position: relative;
+        right: 89px;
+
+    }
+
+    #icons{
+        top: -325px;
+    }
+    #product{
+        top: -276px;
+    }
+    .top-mobiles{top: -226px;}
+    .title{
+        font-size: 0.9em;
+    }
+    .card-image{
+        height: 22vh;
+    }
 }
 
 @media screen and (max-width:354px) {
