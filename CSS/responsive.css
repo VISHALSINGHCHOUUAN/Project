@@ -1,3 +1,75 @@
+
+
+@media screen and (max-width:450px) {
+    header{
+     height: 68vh;
+    }
+     #search{
+         width: 94%;
+         position: relative;
+         bottom: 22px;
+         right: 55px;
+     }
+     #search-box{
+         position: relative;
+         left: 141px;
+         top: 8px;
+     }
+     .navbar-toggler{
+         position: relative;
+         right: 174px;
+     }
+     #newnav{
+         top: 85px;
+     }
+     #brand a {
+         right:94px;
+     }
+     #brand img{
+         position: relative;
+         left:158px;
+     }
+ }
+
+@media screen and (max-width:380px) {
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 52%;
+    }
+
+    #search {
+        display: none;
+    }
+    #newnav {
+        top: 30px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 142px;
+    }
+
+    #brand a {
+        right: 62px;
+    }
+    #brand img{
+        position: relative;
+        left:126px;
+    }
+   
+}
+
+
+
 @media screen and (max-width:370px) {
 
     #search {
@@ -6,10 +78,11 @@
 
     #all-card-item {
         grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        margin-left: 3px;
     }
 
-    .newnav {
-        top: 30px;
+    #newnav {
+        top: 35px;
     }
 
     .navbar-toggler {
@@ -46,72 +119,21 @@
         right: 15px;
     }
 
-}
-
-@media screen and (max-width:380px) {
-    #all-card-item {
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    .tab-links::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0px;
+        top:35px;
+        transition: 0.5s;
+    }
+    .tab-links.active-link::after{
+        width: 20%;
     }
 
-    .col {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card {
-        width: 52%;
-    }
-
-    #search {
-        display: none;
-    }
-    .newnav {
-        top: 30px;
-    }
-
-    .navbar-toggler {
-        position: relative;
-        right: 142px;
-    }
-
-    #brand a {
-        left: -52px;
-    }
-    #brand img{
-        position: relative;
-        left:111px;
-    }
-   
-}
-
-@media screen and (max-width:450px) {
-   header{
-    height: 68vh;
-   }
-    #search{
-        width: 94%;
-        position: relative;
-        bottom: 22px;
-        right: 55px;
-    }
-    #search-box{
-        position: relative;
-        left: 141px;
-        top: 8px;
-    }
-    .navbar-toggler{
-        position: relative;
-        right: 174px;
-    }
-    #newnav{
-        top: 85px;
-    }
-    #brand a {
-        left: 75px;
-    }
-    #brand img{
-        position: relative;
-        left:137px;
+    #icons{
+        top: -162px;
     }
 }
