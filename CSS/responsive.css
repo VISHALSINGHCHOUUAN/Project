@@ -202,3 +202,90 @@
         top: -162px;
     }
 }
+
+@media screen and (max-width:355px) {
+
+    #search {
+        display: none;
+    }
+
+    #all-card-item {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        margin-left: 3px;
+    }
+
+    #newnav {
+        top: 35px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        right: 120px;
+    }
+
+    #brand img {
+        position: relative;
+        left: 26px;
+    }
+
+    #brand a {
+        left: -82px;
+    }
+
+    .card {
+        /* width: 87%; */
+        display: flex;
+        align-items: center;
+    }
+
+    #card3 {
+        position: relative;
+        /* left: 16px; */
+    }
+
+    #card6 {
+        position: relative;
+        /* right: 5px; */
+    }
+
+    #card3 i {
+        right: 15px;
+    }
+
+    .tab-links::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0px;
+        top:35px;
+        transition: 0.5s;
+    }
+    .tab-links.active-link::after{
+        width: 20%;
+    }
+
+    .tab-contents.active-tab {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
+        /* margin-right: 70px; */
+        position: relative;
+        right: 89px;
+
+    }
+
+    #icons{
+        top: -325px;
+    }
+    #product{
+        top: -276px;
+    }
+    .top-mobiles{top: -226px;}
+    .title{
+        font-size: 0.9em;
+    }
+    .card-image{
+        height: 22vh;
+    }
+}
