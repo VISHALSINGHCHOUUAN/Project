@@ -202,7 +202,7 @@
         top: -162px;
     }
 
-    .tab-contents.active-tab {
+    .active-tab {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(336px, 1fr));
         /* margin-right: 70px; */
